@@ -18,8 +18,8 @@ jobs:
         steps:
             - name: install curl
               run: |
-                  apt get -y update
-                  apt get install -y curl
+                  apt -y update
+                  apt install curl -y
             - name: add a new user
               run: |
                   curl -X POST http://app:3000/api/users \
