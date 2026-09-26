@@ -1,4 +1,4 @@
-name: Build and Push Docker Image for Node app
+name: Build and Push Docker
 on:
   release:
     types: [published]
